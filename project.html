@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="project.css">
+
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <h2>Club Membership Registration Form</h2>
+    <p>Please supply correct information in the fields below.</p>
+
+    <form class="row container" id="form" autocomplete="off" onsubmit="event.preventDefault(); onFormSubmit();">
+        <!-- onsubmit="event.preventDefault() to prevent the default behavior of the form -->
+        <!-- autocomplete="off" to prevent auto complete of the form from the browser -->
+
+        <div class="col-md-8">
+            <label class="form-label">First Name</label>
+            <input type="text" class="form-control" id="Firstname" required>
+        </div>
+
+        <div class="col-md-8">
+            <label class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="Lastname" required>
+        </div>
+
+        <div class="col-md-8">
+            <label class="form-label">Age</label>
+            <input type="number" class="form-control" id="Age" required>
+        </div>
+
+        <div class="col-md-8">
+            <label class="form-label">Current Level</label>
+            <select class="form-select" id="Currentlevel" required>
+                <option selected disabled value="">Choose...</option>
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Fourth Year</option>
+                <option>Others</option>
+            </select>
+        </div>
+
+        <div class="col-md-8">
+            <label class="form-label">Favorite Club</label>
+            <input type="text" class="form-control" id="Favoriteclub" required>
+        </div>
+
+        <div class="form_action_buttons col-12 BTN">
+            <input type="submit" value="Submit Form" class="btn btn-danger">
+        </div>
+    </form>
+
+    <div class="table-responsive">
+        <table class="table table-bordered" id="display">
+            <thead>
+                <tr class=" table-dark">
+                    <th scope="col">ID</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Current Level</th>
+                    <th scope="col">Favorite Club</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody class="table-light" id="tableData"></tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

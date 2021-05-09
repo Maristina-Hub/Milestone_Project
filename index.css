@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(/bgpage.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+.logo {
+height: 60px;
+width: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    background: rgba(236, 14, 14, 0.767);
+    overflow: hidden;
+    
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 6fr 4fr 1fr;
+    align-items: center;
+
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+color: black;
+height: 30px;
+background: whitesmoke;
+border-radius: 10px;
+border: 0;
+width: 70px;
+font-size: medium;
+cursor: pointer;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li a {
+    font-weight: bold;
+}
+
+.login_page {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 3px 0 gray;
+    background: #fff;
+    padding: 20px;
+    margin: 6% auto 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login_page h3 {
+    color: red;
+    margin: 30px;
+}
+
+.signup_Btn {
+    color:black;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(236, 14, 14, 0.884);
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.or {
+    background: white;
+    width: 30px;
+    margin: -13px auto 10px;
+}
+.form_logo {
+    height: 70px;
+    width: 90px;
+    opacity: 500px;
+}

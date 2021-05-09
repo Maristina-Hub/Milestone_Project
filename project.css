@@ -1,0 +1,36 @@
+body {
+    background:url(./download1.jpg) center center no-repeat;
+    background-size: cover;
+    margin: 5%;
+    color: white;
+}
+
+.btn {
+    margin: 20px;
+}
+
+.BTN{
+display: flex;
+justify-content: center;
+}
+
+.container {
+    margin:0 auto !important;
+    display: flex;
+    justify-content: center;  
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+
+table {
+    margin-top: 5px;
+}
