@@ -23,6 +23,9 @@ function readFormData() {
 }
 
 function insertNewRecord(data){
+    
+    var data = JSON.parse(data)
+    
     var table = document.getElementById("display").getElementsByTagName("tbody")[0];
 
     var newRow = table.insertRow(table.length);
